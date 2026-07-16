@@ -29,22 +29,27 @@
 Ensure you have Python and `uv` installed on your system. 
 
 1. **Clone the repository:**
-   ```git clone <your-repo-url>
-   cd GYMYATT```
+   ```
+   https://github.com/Vicky404-git/GYMYATT.git
+   cd GYMYATT
+   ```
 
 2. **Set up Environment Variables:**
 Create a .env file in the root directory and append your Groq API key:
 
-```GROQ_API_KEY=gsk_your_actual_api_key_here
+```
+GROQ_API_KEY=gsk_your_actual_api_key_here
 ```
 3. **Install Dependencies:**
-uv will automatically manage the virtual environment and sync dependencies:
-```uv sync
+`uv` will automatically manage the virtual environment and sync dependencies:
+```
+uv sync
 ```
 
 ## 🎮 How to Run
-Execute the engine directly using uv:
-```uv run main.py
+Execute the engine directly using `uv`:
+```
+uv run main.py
 ```
 
 
