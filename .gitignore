@@ -1,0 +1,26 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables (Keep your API keys safe!)
+.env
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Project Data / AI Output
+data/my_tt.csv
+*.csv
+
+# Dependency Management (Optional, usually you track uv.lock/requirements.txt)
+# uv.lock
+# requirements.txt
+
+# Editor / OS-specific files
+.vscode/
+.idea/
+.DS_Store
